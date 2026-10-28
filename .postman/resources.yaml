@@ -1,0 +1,27 @@
+workspace:
+  id: f76d70d8-6179-48c4-b02e-c05ce25137c0
+
+# Each entry here maps a local resource to one or more corresponding objects in Postman Cloud
+
+cloudResources:
+  collections:
+    ../postman/collections/Vehicle Service QA Testing Collection: 59236732-1a4b3c6e-da5a-440c-9b34-196f7db9c4f2
+    ../postman/collections/Vehicle Service Collection: 59236759-c0c57b55-cc56-4739-84f9-0df44f7bdfac
+  environments:
+    ../postman/environments/Mock Environment.environment.yaml: 59236732-fc8dc8dd-74bb-4967-925b-045e91d522ca
+  globals:
+    ../postman/globals/workspace.globals.yaml: e2efc2d8-443e-4663-87a6-547f073a7de7
+  specs:
+    ../C:/Users/mercury/Desktop/5C2oHs5611/postman/specs/Vehicle Service Spec/index.yaml: 5f419187-8c4f-4323-96b1-adfc054cf6df
+  documents:
+    ../postman/documents/WORKSPACE-README.md: f59748c3-4278-4ad7-a011-9f423229690c
+  mocks:
+    ../postman/mocks/New Mock/config.yaml: 01a1831e-0ab5-731b-b1f4-5c9ae8325bb9
+resourceNameMappings:
+  specs:
+    - ../C:/Users/mercury/Desktop/5C2oHs5611/postman/specs/Vehicle Service Spec/index.yaml: Vehicle Service Spec
+
+localResources:
+  specs:
+    - ../C:/Users/mercury/Desktop/5C2oHs5611/postman/specs/Vehicle Service
+      Spec/index.yaml
